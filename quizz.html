@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+   
+       <div id="start">Start Quiz!</div>
+    
+        <div id="quiz" style="display: none"></div>
+                        
+            <div id="question"></div>
+           
+            <div id="choices" class="center">
+                
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <br>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <br>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                <br>
+                <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+           
+            </div>
+       
+            <br>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+    
+        <div id="scoreContainer" style="display: none">
+            <a class="smlbtn" href="saveresult.html">Save your score</a>
+        </div>
+    
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
