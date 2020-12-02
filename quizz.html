@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stl.css">
 </head>
 <body>
     <div id="container">
    
        <div id="start">Start Quiz!</div>
     
-        <div id="quiz" style="display: none"></div>
+        <div id="quiz" style="display: none" class="justify-center flex-column">
                         
             <div id="question"></div>
            
-            <div id="choices" class="center">
-                
-                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div id="choices" class="justify-center flex-column">
+            
+                     <div class="choice" id="A" onclick="checkAnswer('A')"></div>
                 <br>
+            
                 <div class="choice" id="B" onclick="checkAnswer('B')"></div>
                 <br>
                 <div class="choice" id="C" onclick="checkAnswer('C')"></div>
@@ -34,12 +35,13 @@
             </div>
             <div id="progress"></div>
         </div>
+        
     
         <div id="scoreContainer" style="display: none">
-            <a class="smlbtn" href="saveresult.html">Save your score</a>
+                 <a class="btn" id="smlbtn" href="saveresult.html">Save your score</a>
+            
         </div>
     
-
     </div>
     <script src="script.js"></script>
 </body>
