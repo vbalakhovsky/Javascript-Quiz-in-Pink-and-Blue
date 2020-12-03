@@ -19,7 +19,7 @@ let questions = [
         choiceA : "JavaScript is a scripting or programming language that allows you to implement complex features on web page",
         choiceB : "JavaScript adds styles like fonts and colors to websites",
         choiceC : "JavaScript describes the structure of a Web page. JavaScript consists of a series of elements and tells the browser how to display the content",
-        choiceD : "JavaScipt is the latest model of Cappuccino maker prefferred by software developers",
+        choiceD : "JavaScipt is the latest model of Cappuccino maker preferred by software developers",
         correct : "A"
     },{
         question : "What is the command to remove the last element of an array?",
@@ -37,9 +37,7 @@ let questions = [
         choiceC : "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front",
         choiceD : "Bootstrap is a phycological technique used by software designers for staying focused during debugging",
         correct : "C"
-    }
-
-    ,{
+    },{
         question : "How do you convert an object into a string?",
         
         choiceA : "by declaring it as a string",
@@ -48,6 +46,36 @@ let questions = [
         choiceD : "it cannot be done",
         correct : "C"
     }
+
+    ,{
+        question : "What does addClass() method do in jQuery?",
+        
+        choiceA : "it makes everything look classy and elegant",
+        choiceB : "it changes the CSS file",
+        choiceC : "adds one or more class names to the selected element",
+        choiceD : "it changes where the element appears in HTML",
+        correct : "C"
+    }
+
+    ,{
+        question : "What is a loop in JavaScript?",
+        
+        choiceA : "running a block of code until a certain condition is met",
+        choiceB : "a method that allows to avoid obstacles",
+        choiceC : "getting an element from storage",
+        choiceD : "in inefficient code that takes too long to work",
+        correct : "A"
+    }
+    ,{
+        question : "When does a variable have global scope?",
+        
+        choiceA : "when it has a clear logical name",
+        choiceB : "A variable has global scope if it exists during the life of the program and is accessible from anywhere in the program",
+        choiceC : "when it affects to way the program works",
+        choiceD : "when its value is not affected by changes in other parameters",
+        correct : "B"
+    }
+
 ];
 
 

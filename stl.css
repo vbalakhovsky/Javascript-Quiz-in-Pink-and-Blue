@@ -2,6 +2,7 @@ body{
     font-size: 20px;
     font-family: monospace;
     background-color: rgb(199, 215, 250);
+    
 }
 
 .container{
@@ -43,8 +44,7 @@ body{
     margin-bottom: 0.5rem;
     width: 70%;
     font-size: 1.8rem;
-   
-    
+       
 }
 
 #choices :hover{
@@ -75,16 +75,18 @@ body{
 }
 
 #start:hover{
-        color : rgb(66, 42, 153);
+        color : rgb(18, 17, 26);
+        
+    
+      cursor: pointer;
 }
-
 
 #question p{
     margin : 0;
     padding : 25px;
     font-size: 1.25em;
     font-weight: bold;
-  text-align: center;
+    text-align: center;
 }
 
 #timer{
@@ -135,6 +137,7 @@ body{
     margin-bottom: 20px;
 }
 #scoreContainer{
+  
     width: 80%;
     height: 300px;
     display: flex;
